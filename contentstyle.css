@@ -1,0 +1,64 @@
+:root {
+  --theme: #e96767;
+  --bgdark: #1B2227;
+}
+
+body {
+  font-family: Poppins, Arial;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;;
+  align-items: center;
+  background-image: url('images/bg1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: var(--theme);
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 40px;
+  width: 700px;
+  background-color: white;
+}
+
+.container2 {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 40px;
+  width: 1200px;
+  background-color: white;
+}
+
+.container3 {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 40px;
+  width: 1000px;
+  background-color: white;
+}
+
+.back {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: var(--theme);
+  padding: 0px 10px;
+  color: white;
+  transition: background-color .15s;
+  cursor: pointer;
+}
+
+.back:hover {
+  background-color: white;
+  outline: 1px solid var(--theme);
+  color: var(--theme);
+}
